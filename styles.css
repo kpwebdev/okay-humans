@@ -139,8 +139,8 @@ a {
 }
 
 .container {
-  width: 96.8rem;
-  max-width: 96.8rem;
+  width: 126.8rem;
+  max-width: 126.8rem;
   margin-inline: auto;
 }
 
@@ -354,4 +354,49 @@ section#join h3 {
   top: 0%;
   scale: 1.2;
   z-index: -1;
+}
+
+#our-story {
+  background-color: #f9f6f4;
+  color: #15364c;
+  padding-top: 4.2rem;
+  padding-bottom: 8.7rem;
+}
+
+#our-story .header {
+  display: flex;
+  align-items: center;
+  gap: 2.8rem;
+}
+
+#our-story .horizontal-line {
+  height: 0.1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  /* background-color: black; */
+  flex-grow: 1;
+}
+
+#our-story h2 {
+  font-size: 2.2rem;
+  margin-bottom: 2.6rem;
+}
+#our-story .cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+  margin-bottom: 3.5rem;
+}
+
+#our-story .card {
+  display: flex;
+  gap: 2.8rem;
+  font-size: 1.6rem;
+  color: #2f6079;
+}
+
+#our-story .message {
+  font-family: "Palmer Lake";
+  font-size: 2.8rem;
+  text-align: right;
+  margin-right: 6.4rem;
 }

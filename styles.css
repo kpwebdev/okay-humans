@@ -356,6 +356,23 @@ section#join h3 {
   z-index: -1;
 }
 
+.common-heading-container {
+  display: flex;
+  align-items: center;
+  gap: 2.8rem;
+  margin-bottom: 2.6rem;
+}
+
+.common-heading-container h2 {
+  font-size: 2.2rem;
+}
+
+.common-heading-container .horizontal-line {
+  height: 0.1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  flex-grow: 1;
+}
+
 #our-story {
   background-color: #f9f6f4;
   color: #15364c;
@@ -363,23 +380,6 @@ section#join h3 {
   padding-bottom: 8.7rem;
 }
 
-#our-story .header {
-  display: flex;
-  align-items: center;
-  gap: 2.8rem;
-}
-
-#our-story .horizontal-line {
-  height: 0.1rem;
-  background-color: rgba(0, 0, 0, 0.1);
-  /* background-color: black; */
-  flex-grow: 1;
-}
-
-#our-story h2 {
-  font-size: 2.2rem;
-  margin-bottom: 2.6rem;
-}
 #our-story .cards-container {
   display: flex;
   flex-direction: column;
@@ -399,4 +399,9 @@ section#join h3 {
   font-size: 2.8rem;
   text-align: right;
   margin-right: 6.4rem;
+}
+
+.underline-text {
+  text-decoration: underline;
+  font-weight: bold;
 }

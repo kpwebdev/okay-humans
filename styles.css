@@ -405,3 +405,29 @@ section#join h3 {
   text-decoration: underline;
   font-weight: bold;
 }
+
+#works {
+  padding-top: 4.8rem;
+  padding-bottom: 7.2rem;
+  text-align: center;
+}
+
+.features-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.8rem;
+  margin-bottom: 6.7rem;
+}
+
+.features-container svg {
+  margin-bottom: 1.7rem;
+}
+
+.features-container h3 {
+  font-size: 2.3rem;
+  margin-bottom: 1.2rem;
+}
+
+.features-container p {
+  font-size: 1.8rem;
+}

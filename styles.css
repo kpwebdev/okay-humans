@@ -203,6 +203,10 @@ header .container {
   justify-content: center;
 }
 
+.heading .bring-your svg {
+  margin-top: 0.25em;
+}
+
 .heading .bring-your span:nth-of-type(1) {
   color: #e7e1d9;
 }

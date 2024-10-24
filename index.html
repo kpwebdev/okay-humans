@@ -6,6 +6,7 @@
     <title>Okay</title>
     <link rel="icon" href="./assets/images/logo-icon.svg" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" defer></script>
   </head>
   <body>
     <header class="dark-background">
@@ -1111,6 +1112,233 @@
             </li>
           </ul>
         </div>
+      </div>
+    </section>
+
+    <section id="sign-up">
+      <div class="container-narrow">
+        <div class="common-heading-container">
+          <span class="horizontal-line"></span>
+          <h2>SIGN ME UP!</h2>
+          <span class="horizontal-line"></span>
+        </div>
+
+        <h3>
+          In order to take the next step in opening your own Okay Humans, we ask
+          that you fill out and return the following application. The
+          information you provide will help us determine if we&apos;re a good
+          fit. So don&apos;t be brief or shy!
+        </h3>
+
+        <form>
+          <div class="form-container">
+            <div class="form-row">
+              <div class="form-col">
+                <label for="first-name">First Name</label>
+                <input
+                  type="text"
+                  placeholder="Enter Name"
+                  name="first-name"
+                  id="first-name"
+                  required
+                />
+              </div>
+
+              <div class="form-col">
+                <label for="last-name">Last Name</label>
+                <input
+                  type="text"
+                  placeholder="Enter Name"
+                  name="last-name"
+                  id="last-name"
+                  required
+                />
+              </div>
+
+              <div class="form-col">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  placeholder="Enter Email"
+                  name="email"
+                  id="email"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-col">
+                <label for="street">Street Address</label>
+                <input
+                  type="text"
+                  placeholder="Enter Address"
+                  name="street"
+                  id="street"
+                  required
+                />
+              </div>
+
+              <div class="form-col">
+                <label for="city">City</label>
+                <input
+                  type="text"
+                  placeholder="Enter City"
+                  name="city"
+                  id="city"
+                  required
+                />
+              </div>
+
+              <div class="form-col">
+                <label for="state">State</label>
+                <select class="empty" name="state" id="state" required>
+                  <option value="" selected disabled>Select</option>
+                  <option value="rajasthan">Rajasthan</option>
+                  <option value="gujarat">Gujarat</option>
+                  <option value="uttar-pradesh">Uttar Pradesh</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-col">
+                <label for="country">Country</label>
+                <input
+                  type="text"
+                  placeholder="Enter Country"
+                  name="country"
+                  id="country"
+                  required
+                />
+              </div>
+
+              <div class="form-col">
+                <label for="zip-code">Zip Code</label>
+                <input
+                  type="number"
+                  placeholder="#####"
+                  name="zip-code"
+                  id="zip-code"
+                  required
+                />
+              </div>
+
+              <div class="form-col">
+                <label for="cell-phone">Cell Phone</label>
+                <input
+                  type="tel"
+                  placeholder="(###) ###-####"
+                  name="cell-phone"
+                  id="cell-phone"
+                  pattern="[0-9]{3} [0-9]{3} [0-9]{4}"
+                  required
+                />
+              </div>
+
+              <div class="form-col">
+                <label for="investment">Cash Available for Investment</label>
+                <select
+                  class="empty"
+                  name="investment"
+                  id="investment"
+                  required
+                >
+                  <option value="" selected disabled>Select</option>
+                  <option value="10000">&#8377; 10,000</option>
+                  <option value="50000">&#8377; 50,000</option>
+                  <option value="100000">&#8377; 100,000</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-col">
+                <label for="net-worth">Net Worth</label>
+                <select class="empty" name="net-worth" id="net-worth" required>
+                  <option value="" selected disabled>Select</option>
+                  <option value="&lt;10000000">&#8377; &lt; 1 Cr</option>
+                  <option value="10000000-50000000">&#8377; 1 Cr - 5 Cr</option>
+                  <option value="&gt;50000000">&#8377; &gt; 5 Cr</option>
+                </select>
+              </div>
+
+              <div class="form-col">
+                <label for="investment-time">Investment Time Frame</label>
+                <select
+                  class="empty"
+                  name="investment-time"
+                  id="investment-time"
+                  required
+                >
+                  <option value="" selected disabled>Select</option>
+                  <option value="1-year">1 Year</option>
+                  <option value="5-years">5 Years</option>
+                  <option value="10-years">10 Years</option>
+                </select>
+              </div>
+
+              <div class="form-col">
+                <label for="place">Where are you interested in opening?</label>
+                <input
+                  type="text"
+                  placeholder="Enter"
+                  name="place"
+                  id="place"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-col">
+                <label for="linkedin-profile"
+                  >LinkedIn Profile URL (optional)</label
+                >
+                <input
+                  type="url"
+                  placeholder="Enter URL"
+                  name="linkedin-profile"
+                  id="linkedin-profile"
+                />
+              </div>
+
+              <div class="form-col">
+                <label for="coming-from">How did you hear about us?</label>
+                <select
+                  class="empty"
+                  name="coming-from"
+                  name="coming-from"
+                  id="coming-from"
+                  required
+                >
+                  <option value="" selected disabled>Select</option>
+                  <option value="instagram">Instagram</option>
+                  <option value="youtube">YouTube</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-col">
+                <label for="description">
+                  Tell us a little bit about yourself and why you are interested
+                  in an Okay Humans franchise.
+                </label>
+                <textarea
+                  rows="5"
+                  name="description"
+                  id="description"
+                  placeholder="Type here"
+                  required
+                ></textarea>
+              </div>
+            </div>
+          </div>
+
+          <button type="submit" class="btn">SUBMIT</button>
+        </form>
       </div>
     </section>
   </body>

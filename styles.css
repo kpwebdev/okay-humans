@@ -127,6 +127,7 @@
 
 :root {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -371,6 +372,7 @@ section#join h3 {
 .common-heading-container h2 {
   font-size: 2.2rem;
   color: #15364c;
+  text-transform: uppercase;
 }
 
 .common-heading-container .horizontal-line {
